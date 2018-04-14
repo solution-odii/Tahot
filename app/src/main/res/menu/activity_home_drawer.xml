@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/services"
+            android:icon="@drawable/ic_services"
+            android:title="Our Services" />
+        <item
+            android:id="@+id/ticket"
+            android:icon="@drawable/ic_ticket"
+            android:title="Book Ticket" />
+        <item
+            android:id="@+id/rent"
+            android:icon="@drawable/ic_bus"
+            android:title="Rent Bus" />
+        <item
+            android:id="@+id/gps"
+            android:icon="@drawable/ic_gps"
+            android:title="Location" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/notifications"
+                android:icon="@drawable/ic_notifications"
+                android:title="Notifications" />
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_about"
+                android:title="About" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
